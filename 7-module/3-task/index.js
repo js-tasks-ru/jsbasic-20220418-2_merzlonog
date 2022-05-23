@@ -38,7 +38,7 @@ export default class StepSlider {
     }
 
 
-    slider.addEventListener('click', (event) => { this.onSliderClickEvent(event); });
+    slider.addEventListener('click', this.onSliderClickEvent);
 
 
 
