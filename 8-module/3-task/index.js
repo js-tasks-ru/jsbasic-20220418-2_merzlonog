@@ -25,7 +25,7 @@ export default class Cart {
         this.cartItems.push(this.cartItem);
       }
     } else {
-      return;
+      return
     }
 
     this.onProductUpdate(this.cartItem);
